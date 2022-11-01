@@ -7,7 +7,7 @@ class BUS :
         self.trips = []
     def start_trip(self,start_time):
         self.trips.append(start_time)
-
+    
 class Driver :
     def __init__ (self,name,license,address,salary):
         pass
